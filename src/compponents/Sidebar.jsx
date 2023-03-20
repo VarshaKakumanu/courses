@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 function Sidebar() {
     const[showSidebar, setShowSidebar] = useState(false);
   return (
@@ -31,9 +32,15 @@ function Sidebar() {
           showSidebar ? "translate-y-0 " : "translate-y-full"
         }`}
       >
-        <h3 className="mt-20 text-4xl font-semibold text-white">
-         sidebar
+        <h3 className="mt-20 text-4xl  font-semibold text-white">
+         Courses
         </h3>
+        <div className='d-flex p-4 g-3'>
+        <button class="bg-pink-500 mb-3 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">Computer science</button>
+        <button class="bg-pink-500 mb-3 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">Internet Of Things</button>
+        <button class="bg-pink-500 mb-3 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">Networking</button>
+        <button class="bg-pink-500 mb-3 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">Deveopss</button>
+      </div>
       </div>
     </>
   );
