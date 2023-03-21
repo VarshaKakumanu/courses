@@ -8,7 +8,7 @@ import Deveops from './compponents/courses/Deveops';
 import Networking from './compponents/courses/Networking';
 import Sub1 from './compponents/courses/cs/Sub1';
 import Sub2 from './compponents/courses/cs/Sub2';
-import Sub3 from './compponents/courses/cs/Sub3';
+import Sub3 from './compponents/courses/Cs/sub3';
 import Sub4 from './compponents/courses/cs/Sub4';
 
 const Router = () => {
