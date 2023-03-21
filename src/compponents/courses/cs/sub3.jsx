@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-const sub3 = () => {
+const Sub3 = () => {
   return (
     <div>
     <div className="flex flex-col p-4 g-3 h-screen items-center justify-center">
@@ -24,4 +24,4 @@ const sub3 = () => {
   )
 }
 
-export default sub3
+export default Sub3
