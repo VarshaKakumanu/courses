@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
-//Define routes
-import { Routes, Route } from "react-router-dom";
-import Cs from './courses/Cs';
-import Iot from './courses/Iot';
-import Deveops from './courses/Deveops';
-import Networking from './courses/Networking';
+
+
 //Use Link to navigate to routes
 import { Link } from "react-router-dom";
 
@@ -34,15 +30,7 @@ function Sidebar() {
         </svg>
       )}
 
-      {/* define routes */}
-      <div>
-      <Routes>
-        <Route path="/" element={ <Cs /> } />
-        <Route path="deveops" element={ <Deveops /> } />
-        <Route path="networking" element={ <Networking /> } />
-        <Route path="iot" element={ <Iot /> } />
-      </Routes>
-      </div>
+      
 
       <div
         className={`top-0 left-0 w-[35vw] bg-blue-600  p-10 pl-20 text-white fixed h-full z-40  ease-in-out duration-300 ${
