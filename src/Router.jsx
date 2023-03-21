@@ -24,6 +24,13 @@ const Router = () => {
           <Route path="sub2" element={ <Sub2 /> } />
           <Route path="sub3" element={ <Sub3 /> } />
           <Route path="sub4" element={ <Sub4 /> } />
+          <Route path="/" render={() => {
+            return(
+          <h1>Welcome!fdvggdfvgdv</h1>
+            );
+          }
+        }
+         />
         </Routes>
         </div>
   )
