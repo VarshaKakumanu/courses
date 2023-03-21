@@ -6,7 +6,7 @@ const Sub2 = () => {
     <div>
     <div className="flex flex-col p-4 g-3 h-screen items-center justify-center">
       <h1 className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white p-2 mb-4 font-bold text-2xl rounded">
-        Introduction to Computers
+      Programming
       </h1>
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <div class="px-6 py-4">
